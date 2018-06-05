@@ -43,8 +43,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework.authtoken',  # 设置token
     'rest_framework',
-    'auto_course.apps.AutoCourseConfig',
+    'auto_course',
     'forum',
+    'django_filters',
 
 ]
 

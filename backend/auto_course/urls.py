@@ -15,4 +15,5 @@ urlpatterns = [
     url(r'^request/$', RequestList.as_view()),
     url(r'^request/(?P<pk>[0-9]+)/$', RequestUpdate.as_view()),
     url(r'^timetable/$', TimetableList.as_view()),
+    url(r'^timetable/(?P<pk>[0-9]+)/$', TimetableUpdate.as_view()),
 ]

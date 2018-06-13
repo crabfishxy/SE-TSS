@@ -5,3 +5,4 @@ from .models import *
 
 admin.site.register(ClassRoom)
 admin.site.register(Request)
+admin.site.register(course_teacher_time_classroom_relation)
